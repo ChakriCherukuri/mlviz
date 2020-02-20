@@ -1,5 +1,12 @@
-ARG BASE_CONTAINER=jupyter/base-notebook
-FROM $BASE_CONTAINER
+FROM jupyter/base-notebook:63d0df23b673
+
+USER root
+
+ARG NB_USER=jovyan
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
+ENV HOME /home/${NB_USER}
 
 #Set the working directory
 WORKDIR /home/jovyan/
@@ -17,8 +24,12 @@ RUN conda install -c conda-forge --quiet --yes \
     'bqplot' \
     'voila' && \
     jupyter serverextension enable voila --sys-prefix && \
-    pip install tensorflow==2.0.0-rc1 && \
-    rm -rf work
+    pip install tensorflow==2.0.0-rc1
+
+# Make sure the contents of our repo are in ${HOME}
+COPY . ${HOME}
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
 
 # Expose the notebook port
 EXPOSE 8888

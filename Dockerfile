@@ -8,7 +8,7 @@ ENV USER ${NB_USER}
 ENV NB_UID ${NB_UID}
 ENV HOME /home/${NB_USER}
 
-#Set the working directory
+# set the working directory
 WORKDIR /home/jovyan/
 
 LABEL version=".1"
@@ -24,7 +24,8 @@ RUN conda install -c conda-forge --quiet --yes \
     'bqplot' \
     'voila' && \
     jupyter serverextension enable voila --sys-prefix && \
-    pip install tensorflow==2.0.0-rc1
+    pip install tensorflow==2.0.0-rc1 && \
+    rm -rf work
 
 # Make sure the contents of our repo are in ${HOME}
 COPY . ${HOME}

@@ -1,4 +1,6 @@
 # mlviz
+[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke.mybinder.org/user/chakricherukuri-mlviz-a4wuymh2/tree)
+
 Visualizations of machine learning algorithms/models using interactive widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html) and [bqplot](https://bqplot.readthedocs.io/en/latest/)) in the Jupyter notebook
 
 ## Setup

@@ -23,16 +23,18 @@ Instructions to set up the environment and run the jupyter notebook:
 
 ### Conda Environment
 If you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) distribution, then do the following steps to start the jupyter notebook:
+
+* create conda env called mlviz (one time setup)
 ```console
-# create conda env called mlviz (one time setup)
 $ conda env create -f environment.yml
-
-# activate mlviz conda env
+```
+* activate mlviz conda env
+```console
 $ conda activate mlviz
-
-# start jupyter notebook server
+```
+* start jupyter notebook server
+```console
 $ jupyter notebook
 ```
-Access notebooks using the following link
-
+* Access notebooks using the following link
 `http://localhost:8888`

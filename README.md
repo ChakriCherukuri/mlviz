@@ -17,9 +17,9 @@ Instructions to set up the environment and run the jupyter notebook:
 
 `docker run -p 8888:8888 -v "$PWD":/home/jovyan jupyter_widgets:v1`
 
-* Access notebooks using the following link
+* Access the index notebook using the following link
 
-`http://localhost:8888`
+`http://localhost:8888/notebooks/Index.ipynb`
 
 ### Conda Environment
 If you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) distribution, then do the following steps to start the jupyter notebook:
@@ -36,6 +36,6 @@ $ conda activate mlviz
 ```console
 $ jupyter notebook
 ```
-* Access notebooks using the following link
+* Access the index notebook using the following link
 
-`http://localhost:8888`
+`http://localhost:8888/notebooks/Index.ipynb`

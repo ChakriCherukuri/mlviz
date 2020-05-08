@@ -37,4 +37,5 @@ $ conda activate mlviz
 $ jupyter notebook
 ```
 * Access notebooks using the following link
+
 `http://localhost:8888`

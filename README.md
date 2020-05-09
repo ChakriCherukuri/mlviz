@@ -1,5 +1,5 @@
 # mlviz
-[![Binder](https://mybinder.org/badge_logo.svg)](https://hub.gke.mybinder.org/user/chakricherukuri-mlviz-x642xzch/notebooks/Index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?filepath=Index.ipynb)
 
 Visualizations of machine learning algorithms/models using interactive widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html) and [bqplot](https://bqplot.readthedocs.io/en/latest/)) in the Jupyter notebook
 

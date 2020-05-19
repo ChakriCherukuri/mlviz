@@ -1,9 +1,9 @@
 # mlviz
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=Index.ipynb)
 
-This repo is an assortment of notebooks containing machine learning algorithms/models which I present at conferences and webinars. All the examples are built using jupyter widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html), [bqplot](https://bqplot.readthedocs.io/en/latest/) and [voila](https://github.com/voila-dashboards/voila)) running in the Jupyter notebook. The notebooks can be directly run by setting up the environment (see below) and running the individual cells in the notebook. You can also execute these notebooks as voila dashboards (see below).
+This repo is an assortment of notebooks containing machine learning algorithms/models which I present at conferences and webinars. All the examples are built using jupyter widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html), [bqplot](https://bqplot.readthedocs.io/en/latest/) and [voila](https://github.com/voila-dashboards/voila)) running in the Jupyter notebook. The notebooks can be directly run by setting up the environment (see below) and starting the notebook server. You can also execute these notebooks as voila dashboards (see below).
 
-## Environment Setup for running the notebooks
+## Environment Setup (for running the notebooks)
 If you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) distribution, then do the following steps to start the jupyter notebook:
 
 * create conda env called mlviz (one time setup)

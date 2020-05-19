@@ -1,27 +1,9 @@
 # mlviz
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=voila%2Frender%2FIndex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=Index.ipynb)
 
-Visualizations of machine learning algorithms/models using interactive widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html) and [bqplot](https://bqplot.readthedocs.io/en/latest/)) in the Jupyter notebook
+This repo is an assortment of notebooks containing machine learning algorithms/models which I present at conferences and webinars. All the examples are built using jupyter widgets ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html), [bqplot](https://bqplot.readthedocs.io/en/latest/) and [voila](https://github.com/voila-dashboards/voila)) running in the Jupyter notebook. The notebooks can be directly run by setting up the environment (see below) and running the individual cells in the notebook. You can also execute these notebooks as voila dashboards (see below).
 
-## Setup
-### Docker
-The provided Dockerfile can be used to build a docker image (assuming docker is already installed) and launch Jupyter notebooks.
-
-Instructions to set up the environment and run the jupyter notebook:
-
-* Build the docker image
-
-`docker build -t jupyter_widgets:v1 .` (don't forget the dot at the end!)
-
-* Start the notebook server
-
-`docker run -p 8888:8888 -v "$PWD":/home/jovyan jupyter_widgets:v1`
-
-* Access the index notebook using the following link
-
-`http://localhost:8888/notebooks/Index.ipynb`
-
-### Conda Environment
+## Environment Setup for running the notebooks
 If you have [miniconda](https://docs.conda.io/en/latest/miniconda.html) distribution, then do the following steps to start the jupyter notebook:
 
 * create conda env called mlviz (one time setup)
@@ -39,3 +21,29 @@ $ jupyter notebook
 * Access the index notebook using the following link
 
 `http://localhost:8888/notebooks/Index.ipynb`
+
+## Voila dashboards
+
+Any notebook can be rendered as a voila dashboard by clicking the voila menu button in the notebook.
+
+Live voila dashboards (running on mybinder) can be accessed [here](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=voila%2Frender%2FIndex.ipynb). 
+
+### Table Of Contents
+* Data distributions
+    * Datasaurus Dozen
+    * Univariate Gaussian Distribution
+* Unsupervised learning
+    * Low dimensional representations
+        * IRIS
+        * MNIST
+    * Clustering
+        * K-Means
+* Supervised learning
+    * Linear Regression
+    * Perceptron
+    * Kernel Regression
+    * Gradient Descent
+
+* Bayesian Optimization
+    * Gaussian Process Regression
+    * Acquisition Functions and BO

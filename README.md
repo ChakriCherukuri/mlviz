@@ -20,11 +20,13 @@ $ jupyter notebook
 ```
 * Access the index to all the dashboards using the following link
 
-`http://localhost:8888/voila/render/Index.ipynb`
+`http://localhost:8888/notebooks/Index.ipynb`
 
 ## Voila dashboards
 
-Any notebook can be rendered as a voila dashboard by clicking the voila menu button in the notebook.
+Any notebook can be rendered as a voila dashboard by clicking the voila menu button in the notebook. The index page of dashboards can be accessed using the following link
+
+`http://localhost:8888/voila/render/Index.ipynb`
 
 Live voila dashboards (running on mybinder) can be accessed [here](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=voila%2Frender%2FIndex.ipynb). 
 

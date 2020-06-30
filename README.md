@@ -48,4 +48,4 @@ Live voila dashboards (running on mybinder) can be accessed [here](https://mybin
 
 * Bayesian Optimization
     * Gaussian Process Regression
-    * Acquisition Functions and BO
+    * Acquisition Functions and Bayesian Optimization

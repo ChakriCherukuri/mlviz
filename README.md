@@ -44,6 +44,7 @@ Live voila dashboards (running on mybinder) can be accessed [here](https://mybin
     * Linear Regression
     * Perceptron
     * Kernel Regression
+    * Quantile Regression
     * Gradient Descent
 
 * Bayesian Optimization

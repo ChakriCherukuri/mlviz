@@ -11,5 +11,6 @@ dependencies:
   - jupyter
   - bqplot
   - voila
+  - statsmodels
   - pip:
     - tensorflow

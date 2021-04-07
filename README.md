@@ -1,5 +1,5 @@
 # mlviz
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=Index.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ChakriCherukuri/mlviz/master?urlpath=voila%2Frender%2FIndex.ipynb)
 
 Notebooks containing theoretical and applied machine learning algorithms/models. All the examples are built using widget libraries ([ipywidgets](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html), [bqplot](https://bqplot.readthedocs.io/en/latest/) and [voila](https://github.com/voila-dashboards/voila)) running in the Jupyter notebook. The notebooks can be run by setting up the conda environment (see below) and starting the notebook server. The notebooks can be also be run as codeless dashboards using voila (see below).
 

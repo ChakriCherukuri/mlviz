@@ -13,5 +13,6 @@ dependencies:
   - voila
   - statsmodels
   - pillow
+  - ipydatagrid
   - pip:
     - tensorflow

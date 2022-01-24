@@ -1,0 +1,11 @@
+name: bqplot
+channels:
+  - conda-forge
+dependencies:
+  - bqplot
+  - voila
+  - voila-retro
+  - scikit-learn
+  - scipy
+  - numpy
+  - pandas

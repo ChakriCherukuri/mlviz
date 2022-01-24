@@ -1,0 +1,119 @@
+/* Main page areas */
+
+body {
+  background: black;
+}
+
+.bqplot-white {
+  background: black;
+  color: white;
+  padding: 20px;
+}
+
+.bqplot-white a {
+  color: #ddd;
+}
+
+.bqplot-white a:hover {
+  color: #eee;
+}
+
+.bqplot-blue {
+  background: #252525;
+  color: white;
+  padding: 20px;
+}
+
+.bqplot-blue a {
+  color: #ddd;
+}
+
+.bqplot-blue a:hover {
+  color: #eee;
+}
+
+/* Table */
+
+[class*="col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.gallery-item {
+  height: 100%;
+  box-shadow: none;
+  user-select: none;
+  border: 2px solid #252525;
+  border-radius: 0.25rem;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.gallery-item:hover {
+  box-shadow: 4px 4px 12px #252525;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.gallery-item > .disabled {
+  opacity: 0.2;
+}
+
+#loading_text {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 100%;
+  overflow: show;
+  margin: auto;
+  padding-top: 4em;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.spinner-container {
+  z-index: 200;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.spinner {
+  animation: rotation 2s infinite linear;
+  transform-origin: 50% 50%;
+  width: 100px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.bqplot-spinner-color1 {
+  fill: #98c744;
+}
+
+.bqplot-spinner-color2 {
+  fill: #09a481;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.separator {
+  background-color: #252525;
+  height: 2px;
+}

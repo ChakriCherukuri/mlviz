@@ -1,0 +1,18 @@
+---
+layout: default
+title: bqplot gallery
+---
+
+{% for section in site.data.gallery %}
+  <h2 style="color: orange">{{ section.section }}</h2>
+  <div class="row no-gutters">
+    {% for example in section.items %}
+      {% include gallery_item.html example=example %}
+    {% endfor %}
+  </div>
+  <hr class="separator rounded">
+{% endfor %}
+
+<script type="text/javascript">
+const BINDERHUB_HOST = "{{ site.binderhub.host }}";
+</script>

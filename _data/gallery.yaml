@@ -1,0 +1,56 @@
+- section: General
+  items:
+    # Fix this Notebook for dark theme
+    # - title: Mobile patent suits
+    #   description:
+    #   url: notebooks/mobile_patent_suits.ipynb
+    #   image_url: imgs/mobile_patent_suits.svg
+
+    - title: Logs Analytics
+      description: Visual Analytics Of Server Logs
+      url: notebooks/logs_analytics/logs_analytics.ipynb
+      image_url: imgs/logs_analytics.png
+
+    - title: Wealth Of Nations
+      description: Bubble Chart
+      url: notebooks/wealth_of_nations/bubble_chart.ipynb
+      image_url: imgs/wealth_bubble.svg
+
+    - title: Wealth Of Nations
+      description: Choropleth
+      url: notebooks/wealth_of_nations/choropleth.ipynb
+      image_url: imgs/wealth_choropleth.png
+
+- section: Data Science and Machine Learning
+  items:
+    - title: Datasaurus
+      description:
+      url: notebooks/datasaurus/datasaurus.ipynb
+      image_url: imgs/datasaurus.png
+
+    - title: Gaussian Process Regression
+      description: Gaussian Process Regression
+      url: notebooks/gaussian_process_regression.ipynb
+      image_url: imgs/gaussian_process_regression.svg
+
+    - title: Gradient Descent
+      description: Gradient Descent Algorithm
+      url: notebooks/gradient_descent.ipynb
+      image_url: imgs/gradient_descent.svg
+
+    - title: K-means Clustering
+      description: K-Means Algorithm
+      url: notebooks/kmeans_clustering.ipynb
+      image_url: imgs/kmeans_clustering.svg
+
+- section: Finance
+  items:
+    - title: S&P 500 Index Trends
+      description: Performance Of S&P 500 Index Timeseries
+      url: notebooks/spx_timeseries/spx_timeseries.ipynb
+      image_url: imgs/spx_timeseries.svg
+
+    - title: Yield Curve PCA
+      description: PCA On U.S. Treasury Yield Curves
+      url: notebooks/yc_pca/yield_curve_pca.ipynb
+      image_url: imgs/yield_curve_pca.png

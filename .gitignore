@@ -1,4 +1,5 @@
-.DS_Store
-.ipynb_checkpoints
+_site/
+.jekyll-cache
+notebooks/**/.ipynb_checkpoints/
 .vscode
 __pycache__

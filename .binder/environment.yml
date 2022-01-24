@@ -1,11 +1,18 @@
-name: bqplot
+name: mlviz
 channels:
   - conda-forge
 dependencies:
+  - python
+  - pip>19.0
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - jupyter
   - bqplot
   - voila
-  - voila-retro
-  - scikit-learn
-  - scipy
-  - numpy
-  - pandas
+  - statsmodels
+  - pillow
+  - ipydatagrid
+  - pip:
+    - tensorflow

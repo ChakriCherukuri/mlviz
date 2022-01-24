@@ -2,7 +2,7 @@ $(document).ready(function() {
   var binderUrl = null;
   var token = null;
 
-  var buildUrl = BINDERHUB_HOST + '/build/gh/bqplot/bqplot-gallery/main';
+  var buildUrl = BINDERHUB_HOST + '/build/gh/ChakriCherukuri/mlviz/master';
   var evtSource = new EventSource(buildUrl);
   evtSource.onmessage = function(event) {
     var data = JSON.parse(event.data);

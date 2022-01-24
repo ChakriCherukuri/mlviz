@@ -1,56 +1,94 @@
-- section: General
+- section: Data Distributions
   items:
-    # Fix this Notebook for dark theme
-    # - title: Mobile patent suits
-    #   description:
-    #   url: notebooks/mobile_patent_suits.ipynb
-    #   image_url: imgs/mobile_patent_suits.svg
+    - title: Datasaurus Dozen
+      description: 2D Data Distribution
+      url: notebooks/data-distributions/datasaurus/datasaurus.ipynb
+      image_url: images/datasaurus.png
 
-    - title: Logs Analytics
-      description: Visual Analytics Of Server Logs
-      url: notebooks/logs_analytics/logs_analytics.ipynb
-      image_url: imgs/logs_analytics.png
+    - title: Gaussian Density 1D
+      description: Univariate Gaussian Density
+      url: notebooks/data-distributions/gaussian-1d.ipynb
+      image_url: images/gaussian-1d.png
 
-    - title: Wealth Of Nations
-      description: Bubble Chart
-      url: notebooks/wealth_of_nations/bubble_chart.ipynb
-      image_url: imgs/wealth_bubble.svg
+    - title: Gaussian Density 2D
+      description: Bivariate Gaussian Distribution Contours
+      url: notebooks/data-distributions/gaussian-2d.ipynb
+      image_url: images/gaussian-2d.png
 
-    - title: Wealth Of Nations
-      description: Choropleth
-      url: notebooks/wealth_of_nations/choropleth.ipynb
-      image_url: imgs/wealth_choropleth.png
+    - title: Estimation Of PI
+      description: Monte Carlo Estimation Of PI
+      url: notebooks/data-distributions/monte-carlo/pi-estimation.ipynb
+      image_url: images/pi-estimation.png
 
-- section: Data Science and Machine Learning
+    - title: Points In Disc
+      description: Simluation Of Points In A Disc
+      url: notebooks/data-distributions/monte-carlo/points-in-disc.ipynb
+      image_url: images/points-in-disc.png
+
+- section: Supervised Learning
   items:
-    - title: Datasaurus
+    - title: Linear Regression
+      description: 
+      url: notebooks/supervised-learning/linear-regression.ipynb
+      image_url: images/linear-regression.png
+
+    - title: Kernel Regression
+      description: Non-parametric Kernel Regression
+      url: notebooks/supervised-learning/kernel-regression.ipynb
+      image_url: images/kernel-regression.png
+
+    - title: Quantile Regression
       description:
-      url: notebooks/datasaurus/datasaurus.ipynb
-      image_url: imgs/datasaurus.png
+      url: notebooks/supervised-learning/quantile-regression.ipynb
+      image_url: images/quantile-regression.png
 
-    - title: Gaussian Process Regression
-      description: Gaussian Process Regression
-      url: notebooks/gaussian_process_regression.ipynb
-      image_url: imgs/gaussian_process_regression.svg
+    - title: Perceptron
+      description: Classification Of Separable Datasets
+      url: notebooks/supervised-learning/perceptron.ipynb
+      image_url: images/perceptron.png
 
+- section: Unsupervised Learning
+  items:
+    - title: MNIST CLustering
+      description: Clustering Of MNIST Dataset
+      url: notebooks/unsupervised-learning/mnist.ipynb
+      image_url: images/mnist-tsne.png
+
+    - title: K-Means
+      description: K-Means Clustering Algorithm
+      url: notebooks/unsupervised-learning/kmeans.ipynb
+      image_url: images/kmeans.png
+
+- section: Deep Learning
+  items:
     - title: Gradient Descent
       description: Gradient Descent Algorithm
-      url: notebooks/gradient_descent.ipynb
-      image_url: imgs/gradient_descent.svg
+      url: notebooks/deep-learning/gradient-descent.ipynb
+      image_url: images/gradient-descent.png
 
-    - title: K-means Clustering
-      description: K-Means Algorithm
-      url: notebooks/kmeans_clustering.ipynb
-      image_url: imgs/kmeans_clustering.svg
+    - title: Activation Functions
+      description: Activation Functions And Their Derivatives
+      url: notebooks/deep-learning/activation-funcs.ipynb
+      image_url: images/activation-funcs.png
 
-- section: Finance
+    - title: Neural Net Builder
+      description: Wizard For Building And Training Neural Networks
+      url: notebooks/deep-learning/neural-net-builder/neural-net-builder.ipynb
+      image_url: images/neural-net-builder.png
+
+    - title: MNIST Classifier Performance Analysis
+      description:
+      url: notebooks/deep-learning/mnist/mnist-classifier-performance.ipynb
+      image_url: images/mnist-heatmap.png
+
+- section: Bayesian Optimization
   items:
-    - title: S&P 500 Index Trends
-      description: Performance Of S&P 500 Index Timeseries
-      url: notebooks/spx_timeseries/spx_timeseries.ipynb
-      image_url: imgs/spx_timeseries.svg
+    - title: Gaussian Process Regression
+      description:
+      url: notebooks/bayesian-optimization/gaussian-process-regression.ipynb
+      image_url: images/gaussian-process-regression.png
 
-    - title: Yield Curve PCA
-      description: PCA On U.S. Treasury Yield Curves
-      url: notebooks/yc_pca/yield_curve_pca.ipynb
-      image_url: imgs/yield_curve_pca.png
+    - title: Acquisition Functions
+      description:
+      url: notebooks/bayesian-optimization/acquisition-funcs.ipynb
+      image_url: images/acquisition-funcs.png
